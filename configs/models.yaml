@@ -1,0 +1,28 @@
+models:
+  modernbert:
+    model_id: answerdotai/ModernBERT-base
+    batch_size: 8
+    gradient_accumulation: 4
+  snowflake:
+    model_id: Snowflake/snowflake-arctic-embed-s
+    batch_size: 16
+    gradient_accumulation: 2
+  minilm:
+    model_id: sentence-transformers/all-MiniLM-L6-v2
+    batch_size: 16
+    gradient_accumulation: 2
+training:
+  seed: 42
+  epochs: 3
+  learning_rate: 2.0e-05
+  weight_decay: 0.01
+  precision: bf16
+  effective_batch_size: 32
+  max_length: 128
+  warmup_ratio: 0.1
+  optimizer: adamw_torch
+  scheduler: linear
+contrastive:
+  loss: triplet
+  margin: 0.2
+  top_k: 10
