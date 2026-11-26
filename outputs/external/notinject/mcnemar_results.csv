@@ -1,0 +1,13 @@
+backbone,baseline,method,improved,degraded,net_fp_change,p_value,holm_p_value,significant
+Snowflake,Random,Hard,20,11,-9,0.14961278438568115,1.0,False
+Snowflake,Random,Hybrid,12,7,-5,0.359283447265625,1.0,False
+Snowflake,Random,ModelAware,12,7,-5,0.359283447265625,1.0,False
+Snowflake,Hard,Hybrid,10,14,4,0.5412561893463135,1.0,False
+Snowflake,Hard,ModelAware,14,18,4,0.5966148958541453,1.0,False
+Snowflake,Hybrid,ModelAware,10,10,0,1.0,1.0,False
+MiniLM,Random,Hard,20,6,-14,0.009355306625366211,0.11226367950439453,False
+MiniLM,Random,Hybrid,7,2,-5,0.1796875,1.0,False
+MiniLM,Random,ModelAware,14,6,-8,0.11531829833984375,1.0,False
+MiniLM,Hard,Hybrid,5,14,9,0.063568115234375,0.699249267578125,False
+MiniLM,Hard,ModelAware,3,9,6,0.14599609375,1.0,False
+MiniLM,Hybrid,ModelAware,9,6,-3,0.6072387695312499,1.0,False
