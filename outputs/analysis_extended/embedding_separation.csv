@@ -1,0 +1,13 @@
+experiment,samples,silhouette_cosine
+E2_snowflake_frozen,600,0.07066834717988968
+E3_snowflake_ce,600,0.8752713799476624
+E4_snowflake_random_cl,600,0.6766488552093506
+E5_snowflake_hard_cl,600,0.8161220550537109
+E10_snowflake_hybrid_cl,600,0.7816134691238403
+E12_snowflake_model_aware_cl,600,0.7589196562767029
+E6_minilm_frozen,600,0.08256170153617859
+E7_minilm_ce,600,0.8562783002853394
+E8_minilm_random_cl,600,0.44026508927345276
+E9_minilm_hard_cl,600,0.6504754424095154
+E11_minilm_hybrid_cl,600,0.5493261218070984
+E13_minilm_model_aware_cl,600,0.6028218865394592
